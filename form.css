@@ -1,0 +1,503 @@
+body {
+  margin: 0;
+  background-color: brown;
+  background-image: url(images/bg-intro-desktop.png);
+  /* opacity: 1%; */
+}
+
+#main_section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+#desc {
+  margin-right: 8%;
+  width: 35%;
+}
+
+#form_div {
+  margin-top: 2%;
+  /* padding: 5%; */
+  background-color: #fff;
+  height: 65%;
+  width: 30%;
+  text-align: center;
+  padding-top: 2%;
+  border-radius: 2%;
+}
+
+#desc h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+#desc p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  width: 90%;
+  height: 40px;
+  margin-bottom: 5%;
+  border-radius: 1%;
+  border: none;
+}
+
+input[type="button"] {
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  border-bottom: 1px grey solid;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 2%;
+}
+
+input[type="text"] {
+  border: 1px solid hsl(246, 25%, 77%);
+  padding-left: 2%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+input[type="email"] {
+  border: 1px solid hsl(246, 25%, 77%);
+  padding-left: 2%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+input[type="password"] {
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 1%;
+  padding-left: 2%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+.box{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 230px;
+
+
+}
+.alert {
+  background-color: hsl(248, 32%, 30%);
+  height: 50px;
+  width: 450px;
+  /* margin-left: 910px; */
+  border-radius: 1%;
+  margin-top: 6%;
+  padding-top: 0.35%;
+  /* margin-right: %; */
+  text-align: center;
+  box-shadow: 1px 1px 1px  hsl(248, 32%, 49%);
+}
+
+#form_div p{
+
+    font-size: 0.7rem;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.alert p{
+    color:#fff;
+    font-size:1rem;
+    font-family: "Poppins", sans-serif;
+    /* padding-bottom: %; */
+   
+
+}
+
+/* all rules outside of @media queries apply to devices 1201px and above */
+@media (max-width: 1200px) {
+
+    #main_section {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+      }
+      
+      #desc {
+        margin-right: 8%;
+        width: 30%;
+      }
+      
+      #form_div {
+        margin-top: 2%;
+        /* padding: 5%; */
+        background-color: #fff;
+        height: 60%;
+        width: 35%;
+        text-align: center;
+        padding-top: 2%;
+        border-radius: 2%;
+      }
+      
+      #desc h1 {
+        color: #fff;
+        font-size: 3.5rem;
+        font-family: "Poppins", sans-serif;
+      }
+      
+      #desc p {
+        color: #fff;
+        font-size: 1.1rem;
+        font-family: "Poppins", sans-serif;
+      }
+      
+      input {
+        width: 90%;
+        height: 40px;
+        margin-bottom: 5%;
+        border-radius: 1%;
+        border: none;
+      }
+      
+      input[type="button"] {
+        background-color: hsl(154, 59%, 51%);
+        color: #fff;
+        border-bottom: 1px grey solid;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 2%;
+      }
+      
+      input[type="text"] {
+        border: 1px solid hsl(246, 25%, 77%);
+        padding-left: 2%;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      
+      input[type="email"] {
+        border: 1px solid hsl(246, 25%, 77%);
+        padding-left: 2%;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      
+      input[type="password"] {
+        border: 1px solid hsl(246, 25%, 77%);
+        border-radius: 1%;
+        padding-left: 2%;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+      }
+      .alert {
+        background-color: hsl(248, 32%, 30%);
+        height: 50px;
+        width: 450px;
+        margin-left: 56%;
+        border-radius: 1%;
+        margin-top: 6%;
+        padding-top: 0.35%;
+        /* margin-right: %; */
+        text-align: center;
+        box-shadow: 1px 1px 1px  hsl(248, 32%, 49%);
+      }
+      
+      #form_div p{
+      
+          font-size: 0.7rem;
+          margin-top: 0;
+          font-family: "Poppins", sans-serif;
+      
+      }
+      
+      .alert p{
+          color:#fff;
+          font-size:1rem;
+          font-family: "Poppins", sans-serif;
+          /* padding-bottom: %; */
+         
+      
+      }
+}
+@media (max-width: 992px) {	#main_section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: grid;
+    justify-content: center;
+  }
+  
+  #desc {
+    margin-right: 8%;
+  }
+  
+  #form_div {
+    margin-top: 2%;
+    /* padding: 5%; */
+    background-color: #fff;
+    height: 65%;
+    width: 30%;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 2%;
+  }
+  
+  #desc h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #desc p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  input {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 5%;
+    border-radius: 1%;
+    border: none;
+  }
+  
+  input[type="button"] {
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+    border-bottom: 1px grey solid;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 2%;
+  }
+  
+  input[type="text"] {
+    border: 1px solid hsl(246, 25%, 77%);
+    padding-left: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  input[type="email"] {
+    border: 1px solid hsl(246, 25%, 77%);
+    padding-left: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  input[type="password"] {
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 1%;
+    padding-left: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+  }
+  .alert {
+    background-color: hsl(248, 32%, 30%);
+    height: 50px;
+    width: 450px;
+    margin-left: 56%;
+    border-radius: 1%;
+    margin-top: 6%;
+    padding-top: 0.35%;
+    /* margin-right: %; */
+    text-align: center;
+    box-shadow: 1px 1px 1px  hsl(248, 32%, 49%);
+  }
+  
+  #form_div p{
+  
+      font-size: 0.7rem;
+      margin-top: 0;
+      font-family: "Poppins", sans-serif;
+  
+  }
+  
+  .alert p{
+      color:#fff;
+      font-size:1rem;
+      font-family: "Poppins", sans-serif;
+      /* padding-bottom: %; */
+     
+  
+  }}
+@media (max-width: 768px) {
+    
+    body {
+        margin: 0;
+        background-color: black;
+        background-image: url(images/bg-intro-desktop.png);
+        /* opacity: 1%; */
+        padding: 2%;
+      }
+
+    #main_section {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        display: grid;
+        justify-content: center;
+      }
+
+    #desc{
+
+        width: 100%;
+      }
+
+
+    #form_div {
+        margin-top: 2%;
+        /* padding: 5%; */
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding-top: 5%;
+        border-radius: 2%;
+        align-content: center;
+        /* margin-left: 3%;
+        margin-right: 3; */
+      }
+      
+      #desc h1 {
+        color: #fff;
+        font-size: 5rem;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 0.6%;
+        margin-top: 1%;
+        line-height: 1;
+         
+}
+      
+      #desc p {
+        color: #fff;
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+        text-align: justify;
+        font-weight:50;
+        line-height:1.5;
+      }
+      .alert {
+        background-color: red;
+        height: 50px;
+        /* width: 90%; */
+        margin-left: 6%;
+        border-radius: 1%;
+        margin-top: 6%; 
+        padding-top: 0.35%;
+        /* margin-right:5%; */
+         text-align: center;
+        box-shadow: 1px 1px 1px  hsl(248, 32%, 49%);
+      }
+    /* rules here apply to devices from 0px or 425px to 768px (inclusive) */}
+
+/* You may also apply this: */
+@media (max-width: 425px) {
+    body {
+        margin: 0;
+        background-color: black;
+        background-image: url(images/bg-intro-desktop.png);
+        /* opacity: 1%; */
+        padding: 2%;
+      }
+
+    #main_section {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        display: grid;
+        justify-content: center;
+      }
+
+    #desc{
+
+        width: 100%;
+      }
+
+
+    #form_div {
+        margin-top: 2%;
+        /* padding: 5%; */
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding-top: 5%;
+        border-radius: 2%;
+        align-content: center;
+        /* margin-left: 3%;
+        margin-right: 3; */
+      }
+      
+      #desc h1 {
+        color: #fff;
+        font-size: 5rem;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 0.6%;
+        margin-top: 1%;
+        line-height: 1;
+         
+}
+      
+      #desc p {
+        color: #fff;
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+        text-align: justify;
+        font-weight:50;
+        line-height:1.5;
+      }
+      .box{
+        display: flex;
+        justify-content: flex-end;
+        width: 400px;
+    
+    
+    }
+      .alert {
+        background-color: hsl(248, 32%, 30%);
+        height: 50px;
+        width: 100%;
+        margin-left: 6%;
+        border-radius: 1%;
+        margin-top: 6%; 
+        padding-top: 0.35%;
+        /* margin-right:5%; */
+         text-align: center;
+        box-shadow: 1px 1px 1px  hsl(248, 32%, 49%);
+      }
+      
+      
+    /* rules here apply to devices from 0px to 425px (inclusive) */}
+    @media (max-width: 375px) {
+        .box{
+            display: flex;
+            justify-content: flex-end;
+            width: 350px;
+        
+        
+        }
+
+    }
+    @media (max-width: 320px) {
+        .box{
+            display: flex;
+            justify-content: flex-end;
+            width: 315px;
+        
+        
+        }
+
+    }
