@@ -50,7 +50,7 @@ input {
   border: none;
 }
 
-input[type="button"] {
+button {
   background-color: hsl(154, 59%, 51%);
   color: #fff;
   border-bottom: 1px grey solid;
